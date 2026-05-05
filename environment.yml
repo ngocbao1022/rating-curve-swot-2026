@@ -1,0 +1,22 @@
+name: swot_rc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - libblas
+  - liblapack
+  - arviz
+  - matplotlib
+  - pandas
+  - pymc
+  - tqdm
+  - xarray
+  - scipy<1.12
+  - statsmodels<0.15
+  - seaborn
+  - geopandas
+  - cartopy
+  - pip
+  - pip:
+    - git+https://github.com/DassHydro/H2iVDI.git 
